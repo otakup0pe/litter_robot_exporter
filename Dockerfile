@@ -17,4 +17,4 @@ RUN /usr/bin/python3 -m venv /venv && \
 EXPOSE 80
 
 # Run exporter.py when the container launches
-CMD ["/venv/bin/python", "/app/exporter.py"]
+CMD ["/venv/bin/python", "-u", "/app/exporter.py"]

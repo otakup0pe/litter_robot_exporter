@@ -1,4 +1,2 @@
 prometheus_client
-requests
-asyncio
-pylitterbot
+pylitterbot==2025.6.2
